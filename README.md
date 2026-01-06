@@ -33,9 +33,8 @@ This is my first ever repo and my first ever readme! this is my actual hyprland 
     ```
    for **Ubuntu/Debian based** distro! *must be Ubuntu 23.04+ or Debian 12+*
     ```bash
-    sudo pacman -Syu
-    sudo pacman -S hyprland kitty wofi waybar mako zsh ttf-jetbrains-mono ttf-jetbrains-mono-nerd swww fastfetch
-    yay -S python-pywal16
+    sudo apt install hyprland kitty wofi waybar mako zsh jetbrains-mono-fonts swww fastfetch
+    pip3 install pywal
     ```
    for **Fedora based** distro! *must be Fedora 38+*
     ```bash
