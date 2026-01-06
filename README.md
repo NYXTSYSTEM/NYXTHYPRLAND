@@ -24,37 +24,37 @@ This is my first ever repo and my first ever readme! this is my actual hyprland 
     git clone https://github.com/nyxtsystem/nyxthyprland
     cd nyxthyprland
     ```
-
-2. Install the required dependencies:
-  for **Arch based** distro!
+   **Install the required dependencies:**
+2. for **Arch based** distro!
     ```bash
     sudo pacman -Syu
     sudo pacman -S hyprland kitty wofi waybar mako zsh ttf-jetbrains-mono ttf-jetbrains-mono-nerd swww fastfetch
     yay -S python-pywal16
     ```
-  for **Ubuntu/Debian based** distro! *must be Ubuntu 23.04+ or Debian 12+*
+   for **Ubuntu/Debian based** distro! *must be Ubuntu 23.04+ or Debian 12+*
+    ```bash
+    sudo pacman -Syu
+    sudo pacman -S hyprland kitty wofi waybar mako zsh ttf-jetbrains-mono ttf-jetbrains-mono-nerd swww fastfetch
+    yay -S python-pywal16
     ```
-    sudo apt install hyprland kitty wofi waybar mako-notifier zsh fonts-jetbrains-mono swww fastfetch
-    pip3 install pywal
-    ```
-  for **Fedora based** distro! *must be Fedora 38+*
-    ```
+   for **Fedora based** distro! *must be Fedora 38+*
+    ```bash
     sudo dnf install hyprland kitty wofi waybar mako zsh jetbrains-mono-fonts swww fastfetch
     pip3 install pywal
     ```
-4. Copy the config files to their respective locations:
+3.. Copy the config files to their respective locations:
     ```
     cp -r .config/* ~/.config/
     ```
     
-5. Update the Waybar and Wofi configuration:
+4. Update the Waybar and Wofi configuration:
     If Waybar and Wofi configuration references a CSS file like:
     ```
     @import "/home/nice/.cache/wal/colors-waybar.css";
     ``` 
     make sure to replace "nice" with your actual username.
 
-6. Restart your session and enjoy your new setup!
+5. Restart your session and enjoy your new setup!
 
 ## Customization
 
