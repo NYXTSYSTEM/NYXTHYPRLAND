@@ -4,13 +4,13 @@ This is my first ever repo and my first ever readme! this is my actual hyprland 
 
 ## Dependencies
 
-- **Window Manager**: [Hyprland](https://github.com/hyprwm/Hyprland)
-- **Compositor**: Wayland
-- **Terminal**: [Kitty](https://sw.kovidgoyal.net/kitty/)
-- **Launcher**: [Wofi](https://hg.sr.ht/~scoopta/wofi)
-- **Bar**: [Waybar](https://github.com/Alexays/Waybar)
-- **Notifications**: [Mako](https://github.com/emersion/mako)
-- **Color Scheme Generator**: [Pywal16](https://github.com/adi1090x/pywal16)
+- **Window Manager**: [hyprland](https://github.com/hyprwm/Hyprland)
+- **Compositor**: wayland
+- **Terminal**: [kitty](https://sw.kovidgoyal.net/kitty/)
+- **Launcher**: [wofi](https://hg.sr.ht/~scoopta/wofi)
+- **Bar**: [waybar](https://github.com/Alexays/Waybar)
+- **Notifications**: [mako](https://github.com/emersion/mako)
+- **Color Scheme Generator**: [pywal16](https://github.com/adi1090x/pywal16)
 - **System information**: [fastfetch](https://github.com/fastfetch-cli/fastfetch/releases)
 
 ## Screenshots
