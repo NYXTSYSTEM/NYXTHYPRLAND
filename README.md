@@ -29,22 +29,21 @@ This is my first ever repo and my first ever readme! this is my actual hyprland 
   for **Arch based** distro!
     ```bash
     sudo pacman -Syu
-    sudo pacman -S hyprland kitty wofi waybar mako zsh ttf-jetbrains-mono ttf-jetbrains-mono-nerd swww
+    sudo pacman -S hyprland kitty wofi waybar mako zsh ttf-jetbrains-mono ttf-jetbrains-mono-nerd swww fastfetch
     yay -S python-pywal16
     ```
   for **Ubuntu/Debian based** distro! *must be Ubuntu 23.04+ or Debian 12+*
     ```
-    sudo apt install hyprland kitty wofi waybar mako-notifier zsh fonts-jetbrains-mono swww
+    sudo apt install hyprland kitty wofi waybar mako-notifier zsh fonts-jetbrains-mono swww fastfetch
     pip3 install pywal
     ```
   for **Fedora based** distro! *must be Fedora 38+*
     ```
-    sudo dnf install hyprland kitty wofi waybar mako zsh jetbrains-mono-fonts swww
+    sudo dnf install hyprland kitty wofi waybar mako zsh jetbrains-mono-fonts swww fastfetch
     pip3 install pywal
     ```
-  
 4. Copy the config files to their respective locations:
-    ```bash
+    ```
     cp -r .config/* ~/.config/
     ```
     
