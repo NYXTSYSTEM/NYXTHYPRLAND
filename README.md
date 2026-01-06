@@ -40,7 +40,6 @@ This is my first ever repo and my first ever readme! this is my actual hyprland 
   for **Fedora based** distro! *must be Fedora 38+*
     ```bash
     sudo dnf install hyprland kitty wofi waybar mako zsh jetbrains-mono-fonts swww
-
     pip3 install pywal
     ```
   
@@ -48,8 +47,7 @@ This is my first ever repo and my first ever readme! this is my actual hyprland 
     ```bash
     cp -r .config/* ~/.config/
     ```
-
-
+    
 5. Update the Waybar and Wofi configuration:
     If Waybar and Wofi configuration references a CSS file like:
     ```
