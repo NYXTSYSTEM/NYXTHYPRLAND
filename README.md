@@ -33,12 +33,12 @@ This is my first ever repo and my first ever readme! this is my actual hyprland 
     yay -S python-pywal16
     ```
   for **Ubuntu/Debian based** distro! *must be Ubuntu 23.04+ or Debian 12+*
-    ```bash
+    ```
     sudo apt install hyprland kitty wofi waybar mako-notifier zsh fonts-jetbrains-mono swww
     pip3 install pywal
     ```
   for **Fedora based** distro! *must be Fedora 38+*
-    ```bash
+    ```
     sudo dnf install hyprland kitty wofi waybar mako zsh jetbrains-mono-fonts swww
     pip3 install pywal
     ```
