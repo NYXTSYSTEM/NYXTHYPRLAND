@@ -51,7 +51,7 @@ This is my first ever repo and my first ever readme! this is my actual hyprland 
     ```
     @import "/home/nice/.cache/wal/colors-waybar.css";
     ``` 
-    make sure to replace "nice" with your actual username.
+    **make sure to replace** "nice" **with your actual username.**
 
 5. Restart your session and enjoy your new setup!
 
