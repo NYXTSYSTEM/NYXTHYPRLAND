@@ -21,7 +21,7 @@ This is my first ever repo and my first ever readme! this is my actual hyprland 
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/nyxtsystem/nyxthyprland
+    git clone [https://github.com/NYXTSYSTEM/NYXTHYPRLAND]
     cd nyxthyprland
     ```
    **Install the required dependencies:**
