@@ -1,4 +1,4 @@
-# NYXT-HYPRLAND RICE
+# NYXT-HYPRLAND
 
 This is my first ever repo and my first ever readme! this is my actual hyprland ricing stuff for my laptop let me know if you like it!
 
