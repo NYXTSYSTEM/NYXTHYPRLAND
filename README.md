@@ -53,7 +53,7 @@ This is my first ever repo and my first ever readme! this is my actual hyprland 
     ``` 
     **make sure to replace** "nice" **with your actual username.**
 
-5. Restart your session and enjoy your new setup!
+5. Reboot and then you're good to go enjoy your new setup!
 
 ## Customization
 
