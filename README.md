@@ -22,7 +22,7 @@ This is my first ever repo and my first ever readme! this is my actual hyprland 
 1. Clone this repository:
     ```bash
     git clone https://github.com/NYXTSYSTEM/NYXTHYPRLAND
-    cd nyxthyprland
+    cd NYXTHYPRLAND
     ```
    **Install the required dependencies:**
 2. for **Arch based** distro!
