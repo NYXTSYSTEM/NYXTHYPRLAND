@@ -10,8 +10,9 @@ This is my first ever repo and my first ever readme! this is my actual hyprland 
 - **Launcher**: [wofi](https://hg.sr.ht/~scoopta/wofi)
 - **Bar**: [waybar](https://github.com/Alexays/Waybar)
 - **Notifications**: [mako](https://github.com/emersion/mako)
-- **Color Scheme Generator**: [pywal16](https://github.com/adi1090x/pywal16)
+- **Color Scheme Generator**: [pywal](https://github.com/dylanaraps/pywal)
 - **System information**: [fastfetch](https://github.com/fastfetch-cli/fastfetch/releases)
+- **Wallpaper**: [swww](https://github.com/LGFae/swww?tab=readme-ov-file)
 
 ## Screenshots
 
