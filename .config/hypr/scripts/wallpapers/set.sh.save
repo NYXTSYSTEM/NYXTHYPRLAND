@@ -1,0 +1,6 @@
+#!/bin/bash
+set -eu
+
+WALL=$1
+swww img --transition-type grow "$WALL"
+echo "Wallpaper set successfully"
