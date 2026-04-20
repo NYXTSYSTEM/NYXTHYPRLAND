@@ -12,7 +12,8 @@ This is my first ever repo and my first ever readme! this is my actual hyprland 
 - **Notifications**: [mako](https://github.com/emersion/mako)
 - **Color Scheme Generator**: [pywal](https://github.com/dylanaraps/pywal)
 - **System information**: [fastfetch](https://github.com/fastfetch-cli/fastfetch/releases)
-- **Wallpaper**: [swww](https://github.com/LGFae/swww?tab=readme-ov-file)
+- **Wallpaper**: [awww](https://codeberg.org/LGFae/awww)
+- **Lighting**: [OpenRGB](https://github.com/calcprogrammer1/openrgb)
 
 ## Screenshots
 
@@ -31,17 +32,17 @@ This is my first ever repo and my first ever readme! this is my actual hyprland 
 2. for **Arch based** distro!
     ```bash
     sudo pacman -Syu
-    sudo pacman -S hyprland kitty wofi waybar mako zsh ttf-jetbrains-mono ttf-jetbrains-mono-nerd swww fastfetch
-    yay -S python-pywal16
+    sudo pacman -S hyprland kitty wofi waybar mako zsh ttf-jetbrains-mono ttf-jetbrains-mono-nerd awww fastfetch
+    yay -S python-pywal16 openrgb
     ```
    for **Ubuntu/Debian based** distro! *must be Ubuntu 23.04+ or Debian 12+*
     ```bash
-    sudo apt install hyprland kitty wofi waybar mako zsh jetbrains-mono-fonts swww fastfetch
+    sudo apt install hyprland kitty wofi waybar mako zsh jetbrains-mono-fonts awww fastfetch openrgb
     pip3 install pywal
     ```
    for **Fedora based** distro! *must be Fedora 38+*
     ```bash
-    sudo dnf install hyprland kitty wofi waybar mako zsh jetbrains-mono-fonts swww fastfetch
+    sudo dnf install hyprland kitty wofi waybar mako zsh jetbrains-mono-fonts awww fastfetch openrgb
     pip3 install pywal
     ```
 3.. Copy the config files to their respective locations:
