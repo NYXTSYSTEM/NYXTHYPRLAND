@@ -1,9 +1,10 @@
 #!/bin/bash
 set -eu
 
-WALL=$1
+WALL="${1:-$(find ~/.config/wallpapers -type f | shuf -n 1)}"
 
-swww img --transition-type center --transition-step 60 "$WALL"
+awww img --transition-type grow --transition-pos 0.5,0.5 --transition-step 2 --transition-fps 60 "$WALL"
+
 echo "Wallpaper set successfully"
 
 

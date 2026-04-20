@@ -17,7 +17,8 @@ SELECTED_FILE=$(echo "$FILE_LIST" | wofi --dmenu --prompt "Select wallpaper")
 
 WALL="$WALL_DIR/$SELECTED_FILE"
 echo "Setting wallpaper: $SELECTED_FILE"
-swww img --transition-type center --transition-step 60 "$WALL"
+awww img --transition-type grow --transition-pos 0.5,0.5 --transition-step 2 --transition-fps 60 "$WALL"
+sh ~/.config/keyboard/set-color-keyboard.sh
 echo "Wallpaper set successfully"
 
 if command -v wal >/dev/null 2>&1; then
