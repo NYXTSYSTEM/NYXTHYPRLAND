@@ -19,7 +19,7 @@ This is my first ever repo and my first ever readme! this is my actual hyprland 
 
 ![Desktop Screenshot](.config/screen/screen1.png)
 ![Desktop Screenshot](.config/screen/screen2.png)
-![Desktop Screenshot](.config/screen/screen3.jpg)
+![Desktop Screenshot](.config/screen/screen3.png)
 
 ## Installation
 
