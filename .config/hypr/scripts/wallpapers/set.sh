@@ -2,6 +2,7 @@
 set -eu
 
 WALL="${1:-$(find ~/.config/wallpapers -type f | shuf -n 1)}"
+makoctl reload
 
 awww img --transition-type grow --transition-pos 0.5,0.5 --transition-step 2 --transition-fps 60 "$WALL"
 

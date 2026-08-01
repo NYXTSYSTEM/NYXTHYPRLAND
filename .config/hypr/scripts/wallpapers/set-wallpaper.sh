@@ -9,7 +9,7 @@ if [ ! -d "$WALL_DIR" ]; then
     exit 1
 fi
 
-FILE_LIST=$(find "$WALL_DIR" -type f \( -iname "*.png" -o -iname "*.jpg" \) -printf "%f\n")
+FILE_LIST=$(find "$WALL_DIR" -type f \( -iname "*.png" -o -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.webp" \) -printf "%f\n")
 
 SELECTED_FILE=$(echo "$FILE_LIST" | wofi --dmenu --prompt "Select wallpaper")
 
@@ -24,6 +24,7 @@ echo "Wallpaper set successfully"
 if command -v wal >/dev/null 2>&1; then
     echo "Applying pywal colors..."
     wal -i "$WALL"
+    makoctl reload
     echo "Pywal applied successfully"
     
     
