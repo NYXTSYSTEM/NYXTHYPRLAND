@@ -1,6 +1,6 @@
 # NYXT-HYPRLAND
 
-This is my first ever repo and my first ever readme! this is my actual hyprland ricing stuff for my laptop let me know if you like it!
+This is the legacy dots before noctalia switched
 
 ## Dependencies
 
@@ -13,7 +13,6 @@ This is my first ever repo and my first ever readme! this is my actual hyprland 
 - **Color Scheme Generator**: [pywal](https://github.com/dylanaraps/pywal)
 - **System information**: [fastfetch](https://github.com/fastfetch-cli/fastfetch/releases)
 - **Wallpaper**: [awww](https://codeberg.org/LGFae/awww)
-- **Lighting**: [OpenRGB](https://github.com/calcprogrammer1/openrgb)
 
 ## Screenshots
 
@@ -29,22 +28,13 @@ This is my first ever repo and my first ever readme! this is my actual hyprland 
     cd NYXTHYPRLAND
     ```
    **Install the required dependencies:**
-2. for **Arch based** distro!
+2. for my dots i uses **Arch based** distro
     ```bash
     sudo pacman -Syu
     sudo pacman -S hyprland kitty wofi waybar mako zsh ttf-jetbrains-mono ttf-jetbrains-mono-nerd awww fastfetch
-    yay -S python-pywal16 openrgb
+    yay -S python-pywal16
     ```
-   for **Ubuntu/Debian based** distro! *must be Ubuntu 23.04+ or Debian 12+*
-    ```bash
-    sudo apt install hyprland kitty wofi waybar mako zsh jetbrains-mono-fonts awww fastfetch openrgb
-    pip3 install pywal
-    ```
-   for **Fedora based** distro! *must be Fedora 38+*
-    ```bash
-    sudo dnf install hyprland kitty wofi waybar mako zsh jetbrains-mono-fonts awww fastfetch openrgb
-    pip3 install pywal
-    ```
+    **NOTED for others distro's please uses your pm repository name**
 3.. Copy the config files to their respective locations:
     ```
     cp -r .config/* ~/.config/
@@ -63,4 +53,5 @@ This is my first ever repo and my first ever readme! this is my actual hyprland 
 
 Feel free to config my rice `~/.config` directory to suits yourself however you like!
 
-**Enjoy!!!!!!!!!**
+**For more polished modular with slight ram increased please check**
+[main](https://github.com/NYXTSYSTEM/NYXTHYPRLAND/tree/main)
