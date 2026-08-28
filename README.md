@@ -1,18 +1,20 @@
 # NYXT-HYPRLAND
 
-This is the legacy dots before noctalia switched
+Current dotfile with <font color=#5b34eb>noctalia</font> 
+<br> 
+**For more seperate config modules with less ram usage please check**
+[legacy](https://github.com/NYXTSYSTEM/NYXTHYPRLAND/tree/legacy)
+</br>
+
 
 ## Dependencies
 
 - **Window Manager**: [hyprland](https://github.com/hyprwm/Hyprland)
 - **Compositor**: wayland
-- **Terminal**: [kitty](https://sw.kovidgoyal.net/kitty/)
-- **Launcher**: [wofi](https://hg.sr.ht/~scoopta/wofi)
-- **Bar**: [waybar](https://github.com/Alexays/Waybar)
-- **Notifications**: [mako](https://github.com/emersion/mako)
-- **Color Scheme Generator**: [pywal](https://github.com/dylanaraps/pywal)
-- **System information**: [fastfetch](https://github.com/fastfetch-cli/fastfetch/releases)
-- **Wallpaper**: [awww](https://codeberg.org/LGFae/awww)
+- **Terminal Emu**: [kitty](https://sw.kovidgoyal.net/kitty/)
+- **Shell**: [noctlia](https://github.com/noctalia-dev/noctalia)
+- **Display Manager**: [greetd](https://github.com/kennylevinsen/greetd)
+- **noctalia-greetd**: [noctalia-greetd](https://docs.noctalia.dev/greeter/)
 
 ## Screenshots
 
@@ -24,34 +26,42 @@ This is the legacy dots before noctalia switched
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/NYXTSYSTEM/NYXTHYPRLAND
+    git clone https://github.com/NYXTSYSTEM/NYXTHYPRLAND.git
     cd NYXTHYPRLAND
-    ```
-   **Install the required dependencies:**
-2. for my dots i uses **Arch based** distro
+    ```   
+2. **Install the required dependencies:** for my dots i use <font color=#1793D1>**Arch based**</font> distro
+    <br>
+    <font color=#f2294e>**FOR OTHERS DISTRO PLEASE PROCESS WITH EACH DEPENDENCIES DOCS, WIKIS**</font>
+    </br>
     ```bash
     sudo pacman -Syu
-    sudo pacman -S hyprland kitty wofi waybar mako zsh ttf-jetbrains-mono ttf-jetbrains-mono-nerd awww fastfetch
-    yay -S python-pywal16
+    sudo pacman -S hyprland kitty zsh ttf-jetbrains-mono ttf-jetbrains-mono-nerd fastfetch noctalia
     ```
-    **NOTED for others distro's please uses your pm repository name**
-3.. Copy the config files to their respective locations:
+    **or** uses <font color=cyan>AUR</font> helper **It's recommended to use <font color=#1793D1>**pacman**</font> instead of an <font color=cyan>AUR</font> helper because it's faster and more secure. Only use <font color=cyan>AUR</font> helper when a package isn't in the official Arch repos.**
+    ```
+    yay -Syu --noconfirm
+    yay -S hyprland kitty zsh ttf-jetbrains-mono ttf-jetbrains-mono-nerd fastfetch noctalia
+    ```
+
+    **for [noctalia-greetd](https://docs.noctalia.dev/greeter/) please process with the installation pages** or you can ignore it
+3. Copy the config files to their respective locations:
     ```
     cp -r .config/* ~/.config/
     ```
-    
-4. Update the Waybar and Wofi configuration:
-    If Waybar and Wofi configuration references a CSS file like:
-    ```
-    @import "/home/nice/.cache/wal/colors-waybar.css";
-    ``` 
-    **make sure to replace** "nice" **with your actual username.**
 
-5. Reboot and then you're good to go enjoy your new setup!
+4. <font color=gree>**Reboot**</font> and then you're good to go enjoy your new setup!
 
 ## Customization
 
 Feel free to config my rice `~/.config` directory to suits yourself however you like!
 
-**For more polished modular with slight ram increased please check**
-[main](https://github.com/NYXTSYSTEM/NYXTHYPRLAND/tree/main)
+---
+
+
+<div align="center"><p>
+
+![GitHub last commit](https://img.shields.io/github/last-commit/NYXTSYSTEM/NYXTHYPRLAND)    ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/NYXTSYSTEM/NYXTHYPRLAND)
+</p>
+</div>
+
+---
