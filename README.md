@@ -1,6 +1,6 @@
 # NYXT-HYPRLAND
 
-Current dotfile with <font color=#5b34eb>noctalia</font> 
+Current dotfile with noctalia
 <br> 
 **For more seperate config modules with less ram usage please check**
 [legacy](https://github.com/NYXTSYSTEM/NYXTHYPRLAND/tree/legacy)
@@ -29,15 +29,15 @@ Current dotfile with <font color=#5b34eb>noctalia</font>
     git clone https://github.com/NYXTSYSTEM/NYXTHYPRLAND.git
     cd NYXTHYPRLAND
     ```   
-2. **Install the required dependencies:** for my dots i use <font color=#1793D1>**Arch based**</font> distro
+2. **Install the required dependencies:** for my dots i use **Arch based** distro
     <br>
-    <font color=#f2294e>**FOR OTHERS DISTRO PLEASE PROCESS WITH EACH DEPENDENCIES DOCS, WIKIS**</font>
+    **FOR OTHERS DISTRO PLEASE PROCESS WITH EACH DEPENDENCIES DOCS, WIKIS**
     </br>
     ```bash
     sudo pacman -Syu
     sudo pacman -S hyprland kitty zsh ttf-jetbrains-mono ttf-jetbrains-mono-nerd fastfetch noctalia
     ```
-    **or** uses <font color=cyan>AUR</font> helper **It's recommended to use <font color=#1793D1>**pacman**</font> instead of an <font color=cyan>AUR</font> helper because it's faster and more secure. Only use <font color=cyan>AUR</font> helper when a package isn't in the official Arch repos.**
+    **or** uses AUR helper **It's recommended to use **pacman** instead of an AUR helper because it's faster and more secure. Only use AUR helper when a package isn't in the official Arch repos.**
     ```
     yay -Syu --noconfirm
     yay -S hyprland kitty zsh ttf-jetbrains-mono ttf-jetbrains-mono-nerd fastfetch noctalia
@@ -49,7 +49,7 @@ Current dotfile with <font color=#5b34eb>noctalia</font>
     cp -r .config/* ~/.config/
     ```
 
-4. <font color=gree>**Reboot**</font> and then you're good to go enjoy your new setup!
+4. **Reboot** and then you're good to go enjoy your new setup!
 
 ## Customization
 
