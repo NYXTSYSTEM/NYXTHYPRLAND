@@ -28,6 +28,4 @@ hl.on("hyprland.start", function()
     hl.exec_cmd("kitty")
     hl.exec_cmd("hypridle")
     hl.exec_cmd("noctalia")
-
-    hl.exec_cmd("sleep 1 && " .. os.getenv("HOME") .. "/.config/hypr/scripts/wallpapers/set-random.sh")
 end)
