@@ -14,6 +14,8 @@ local clipboard = "cliphist list"
 
 local mainMod = "SUPER"
 
+local ipc = "noctalia msg "
+
 local shiftMod = mainMod .. " + SHIFT"
 
 -- Scripts and apps binds
@@ -22,19 +24,28 @@ local shiftMod = mainMod .. " + SHIFT"
 
 hl.bind(mainMod .. " + " .. "Q", hl.dsp.exec_cmd("kitty"))
 
-hl.bind(mainMod .. " + " .. "R", hl.dsp.exec_cmd("wofi --show drun"))
+hl.bind(mainMod .. " + " .. "R", hl.dsp.exec_cmd(ipc .. "panel-toggle launcher"))
 
 hl.bind(mainMod .. " + " .. "E", hl.dsp.exec_cmd("thunar"))
 
 hl.bind(mainMod .. " + " .. "V", hl.dsp.exec_cmd("cliphist list| wofi --dmenu| cliphist decode| wl-copy"))
 
-hl.bind(mainMod .. " + " .. "L", hl.dsp.exec_cmd("hyprlock"))
+hl.bind(mainMod .. " + " .. "L", hl.dsp.exec_cmd(ipc .. "session lock"))
+
+
+-- noctalia control
+
+hl.bind(mainMod .. "+P", hl.dsp.exec_cmd(ipc .. "panel-toggle control-center"))
+
+hl.bind(mainMod .. "+comma", hl.dsp.exec_cmd(ipc .. "settings-toggle"))
+
+hl.bind("ALT + Tab", hl.dsp.exec_cmd(ipc .. "window-switcher"))
 
 -- set a random wallpaper
 
-hl.bind(mainMod .. " + " .. "O", hl.dsp.exec_cmd(os.getenv("HOME") .. "/.config/hypr/scripts/wallpapers/set-random.sh"))
+hl.bind(mainMod .. " + " .. "O", hl.dsp.exec_cmd(ipc .. "wallpaper-random"))
 
-hl.bind(mainMod .. " + " .. "I", hl.dsp.exec_cmd(os.getenv("HOME") .. "/.config/hypr/scripts/wallpapers/set-wallpaper.sh"))
+hl.bind(mainMod .. " + " .. "I", hl.dsp.exec_cmd(ipc .. "panel-toggle wallpaper"))
 
 -- WM Control binds
 
@@ -44,13 +55,7 @@ hl.bind(mainMod .. " + " .. "M", hl.dsp.exit())
 
 hl.bind(mainMod .. " + " .. "F", hl.dsp.window.float())
 
--- bind = $mainMod, P, pseudo, # dwindle
-
 hl.bind(mainMod .. " + " .. "J", hl.dsp.layout("togglesplit"))
-
--- dwindle
-
-hl.bind(mainMod .. " + " .. "B", hl.dsp.exec_cmd(os.getenv("HOME") .. "/.config/hypr/scripts/launch.sh"))
 
 --# Window Switch
 
