@@ -51,9 +51,10 @@ Current dotfile with noctalia
 
 4. **Reboot** and then you're good to go enjoy your new setup!
 
-## Customization
+## Disclaimer
 
-Feel free to config my rice `~/.config` directory to suits yourself however you like!
+I **DO NOT** own any of these wallpapers. 
+<br> All rights are reserved to **[Kuro Games](https://www.kurogames.com/).** </br>
 
 ---
 

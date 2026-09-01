@@ -254,19 +254,19 @@ show_running = true
 smart_auto_hide = false
 
 [hooks]
-battery_charging = [ "notify-send \"Charging\"" ]
-battery_discharging = [ "notify-send \"Discharging\"" ]
+battery_charging = [ "notify-send Charging" ]
+battery_discharging = [ "notify-send -u critical \\ \"Discharging\"" ]
 battery_percentage_changed = []
 battery_plugged = [ "notify-send \"Plugged in\"" ]
 bluetooth_disabled = []
 bluetooth_enabled = []
 colors_changed = []
-logging_out = [ "notify-send \"Loggin out...\"" ]
+logging_out = [ "notify-send -u critical \\ \"Loggin out...\"" ]
 power_profile_changed = []
-rebooting = [ "notify-send \"Rebooting...\"" ]
+rebooting = [ "notify-send -u critical \\ \"Rebooting...\"" ]
 session_locked = []
 session_unlocked = [ "notify-send \"Welcome back!\"" ]
-shutting_down = [ "notify-send \"Shutting down...\"" ]
+shutting_down = [ "notify-send -u critical \\ \"Shutting down...\"" ]
 started = [ "notify-send \"Welcome!\"" ]
 theme_mode_changed = []
 wallpaper_changed = []
@@ -300,26 +300,26 @@ pre_action_fade_seconds = 2.0
     [idle.behavior.lock]
     action = "lock"
     command = ""
-    enabled = false
-    locked_timeout = 0.0
-    resume_command = ""
-    timeout = 600.0
-
-    [idle.behavior.lock-and-suspend]
-    action = "lock_and_suspend"
-    command = ""
-    enabled = false
+    enabled = true
     locked_timeout = 0.0
     resume_command = ""
     timeout = 900.0
 
+    [idle.behavior.lock-and-suspend]
+    action = "lock_and_suspend"
+    command = ""
+    enabled = true
+    locked_timeout = 0.0
+    resume_command = ""
+    timeout = 10800.0
+
     [idle.behavior.screen-off]
     action = "screen_off"
     command = ""
-    enabled = false
+    enabled = true
     locked_timeout = 0.0
     resume_command = ""
-    timeout = 660.0
+    timeout = 3600.0
 
 [keybinds]
 cancel = [ "Escape" ]
