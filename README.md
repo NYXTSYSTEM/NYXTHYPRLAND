@@ -1,10 +1,10 @@
 # NYXT-HYPRLAND
 
-Current dotfile with noctalia
-<br> 
-**For more seperate config modules with less ram usage please check**
-[legacy](https://github.com/NYXTSYSTEM/NYXTHYPRLAND/tree/legacy)
-</br>
+Why **[noctalia?](https://github.com/noctalia-dev/noctalia)** i found a lot of rice using quickshell as a resault of **Qt/QML framework** causing it too utilize too much resources causing low-entry device hard to reach on heavy rices dotfile or even optimized therefore that's why i chose noctalia-shell it's low footprint built on **C++** and **QtQuick/QML**
+
+
+
+**For more seperate config modules with less ram usage please check**     [legacy](https://github.com/NYXTSYSTEM/NYXTHYPRLAND/tree/legacy)
 
 
 ## Dependencies
