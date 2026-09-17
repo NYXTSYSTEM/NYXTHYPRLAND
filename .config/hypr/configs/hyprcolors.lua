@@ -2,9 +2,6 @@
 -- https://github.com/Prateek-squadron/hyprconf2lua
 -- Manual review may be needed for complex directives
 
-
-local color_hyprland = dofile(
-    os.getenv("HOME") .. "/.cache/wal/colors_hyprland.lua"
 )
 
 hl.config({
@@ -12,16 +9,8 @@ hl.config({
         gaps_in = 5,
         gaps_out = 20,
         border_size = 2,
-        -- https://wiki.hyprland.org/Configuring/Variables/#variable-types for info about colors
-        -- Set to true enable resizing windows by clicking and dragging on borders and gaps
-        resize_on_border = true,
-        -- Please see https://wiki.hyprland.org/Configuring/Tearing/ before you turn this on
         allow_tearing = false,
         layout = "dwindle",
-        col = {
-            active_border = color_hyprland.color1,
-            inactive_border = color_hyprland.color8,
-        },
     },
 })
 
@@ -38,7 +27,6 @@ hl.config({
             enabled = true,
             range = 4,
             render_power = 3,
-            color = color_hyprland.color0,
         },
         -- https://wiki.hyprland.org/Configuring/Variables/#blur
         blur = {
