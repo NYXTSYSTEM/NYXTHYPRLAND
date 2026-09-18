@@ -16,6 +16,14 @@ hl.window_rule({
     suppress_event = "maximize",
 })
 
+-- Noctalia
+
+hl.window_rule({
+    match = { class = "dev.noctalia.Noctalia" },
+    float = true,
+    size = { 1080, 920 },
+})
+
 -- Fix some dragging issues with XWayland
 hl.window_rule({
     name = "fix-xwayland-drags",
