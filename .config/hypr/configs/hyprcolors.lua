@@ -2,7 +2,6 @@
 -- https://github.com/Prateek-squadron/hyprconf2lua
 -- Manual review may be needed for complex directives
 
-)
 
 hl.config({
     general = {
