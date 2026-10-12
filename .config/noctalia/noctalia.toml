@@ -1,5 +1,6 @@
 [audio]
 enable_sounds = true
+sound_volume = 0.99999997764825821
 
 [bar.default]
 background_opacity = 0.80999998189508915
@@ -224,13 +225,15 @@ widget_order = [ "lockscreen-login-box@eDP-1", "lockscreen-widget-00000000000000
         inner_diameter = 0.75
         visualization_mode = "bars_rings"
 
+[osd.kinds]
+dnd = false
 
 [plugins]
 enabled = []
 
 [shell]
 app_icon_colorize = true
-avatar_path = "/home/nice/Downloads/profile.jpg"
+avatar_path = "/home/nyxt/.config/avatar/profile.jpg"
 panel_anchor_bar = "default"
 password_style = "random"
 polkit_agent = true
@@ -260,6 +263,9 @@ polkit_agent = true
     confirm_region = true
     directory = "/home/nice/Pictures"
 
+    [shell.session]
+    grid = true
+
 [theme]
 builtin = "Ayu"
 community_palette = "Oxocarbon"
@@ -268,21 +274,21 @@ wallpaper_scheme = "m3-content"
 
     [theme.templates]
     builtin_ids = [ "btop", "cava", "hyprland", "kitty" ]
-    community_ids = [ "neovim", "zed", "fastfetch", "hyprtoolkit", "bat" ]
+    community_ids = [ "discord", "neovim", "zed", "fastfetch", "obs", "hyprtoolkit", "bat" ]
 
 [wallpaper]
-directory = "/home/nice/.config/wallpapers"
+directory = "~/.config/wallpapers"
 fill_mode = "span"
 transition_on_startup = true
 
     [wallpaper.default]
-    path = "/home/nice/.config/wallpapers/inverse2.jpg"
+    path = "/home/nyxt/.config/wallpapers/s2.jpg"
 
     [wallpaper.last]
-    path = "/home/nice/.config/wallpapers/inverse2.jpg"
+    path = "/home/nyxt/.config/wallpapers/s2.jpg"
 
     [wallpaper.monitors.eDP-1]
-    path = "/home/nice/.config/wallpapers/inverse2.jpg"
+    path = "/home/nyxt/.config/wallpapers/s2.jpg"
 
 [widget.audio_visualizer]
 bands = 51
