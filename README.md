@@ -51,6 +51,17 @@ Why **[noctalia?](https://github.com/noctalia-dev/noctalia)** i found a lot of r
 
 4. **Reboot** and then you're good to go enjoy your new setup!
 
+## Keybinds
+* super + q = **Terminal**
+* super + c = **kill active program**
+* super + r = **launcher**
+* super + i = **select wallpaper**
+* super + o = **random wallpaper**
+* super + , = **noctalia settings**
+* super + p = **noctalia home**
+
+- - -
+ 
 ## Disclaimer
 
 I **DO NOT** own any of these wallpapers. 
